@@ -1,6 +1,8 @@
 # DIY-Air-Purifier
 A small DIY air purifier using off-the-shelf components for &lt;$100.
 
+Time to assemble this project - 1hr (not including 3D print time).
+
 Uses a 3D printed housing so you'll need a printer or access to one. You could use a printing service such as 3D Hubs.
 
 All prices listed are in AUD.
