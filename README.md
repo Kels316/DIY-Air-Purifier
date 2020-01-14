@@ -38,6 +38,7 @@ The BOM for the air purifier is:
   - 1x 3D printed fan housing. The STL file can be found in: 
   - 4pin fan cable: https://www.pccasegear.com/products/35666/cablemod-4-pin-fan-to-3x-4-pin-fan-y-cable-black-30cm. This cable is cheap and gives you three female plugs so you can make multiple devices with the one cable.
   - Heatshrink tubing 8mm (30mm long).
+  - 4x rubber fan screws: https://www.pccasegear.com/products/34741/noctua-black-chromax-anti-vibration-mounting-bolts-20-pack. These unfortunately only come in a pack of 20, so you may find them in smaller amounts at other outlets. Alternatively you can use 4mm screw heat bolts and nuts, you will need to check the length you need depending on the thickness of your fan. For the fans I linked above you would need 30mm bolts.
 
 ## Tools
 You will need the following tools to assemble the device:
@@ -57,4 +58,11 @@ Assemble the wiring harness for the 2.5mm socket.
 - Determine the correct terminal lugs on the 2.5mm socket using the multimeter. Then solder the + and - wires to the correct terminals.
 - Pull the heatshrink over the socket lugs and shrink it with a heat gun or flame.
 - The completed wiring harness should look similar to this
-![](xxx)
+![](images/IMG_3146.jpg)
+
+###Step 2
+Assemble the fan housing.
+- Take the 3D printed housing and insert the 2.5mm socket from the inside, and fix in place using the supplied washer and nut. Tighten down with your pliers so it is snug but don't go crazy, you don't want to crack the housing.
+- Place the fan inside the housing with the writing facing towards the square end, this will ensure the fan draws air through the filter rather than pushing air into the filter. It wont make a huge difference to the performance of the device, but it's good practice to have clean air running over the fan. Use the 4 rubber fan mounts (or bolts if you use that method) to fix the fan into the case, then plug the fan cable into the wiring harness from step 1.
+
+
