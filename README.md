@@ -75,3 +75,13 @@ Assemble the device.
 ![](images/housing_filter_join.jpg)
 ![](images/base_cover.jpg)
 ![](images/final_assembly.jpg)
+
+### Step 4
+Power up and test.
+- Assemble the USB cable with the 2.5mm plug. In the kit linked above it is the largest suppled plug, with the white tip.
+
+- Plug the cable into the device and your USB power bank and the fan should start running. If the fan doesn't work you should begin troubleshooting. Start with checking your powerbank is charged and turned on to supply power. I have a couple of battery packs that don't work to supply power to the air purifier, even though they are rated well above the requirement, I'm not sure why but it seems like some devices can't supply the surge current required to start the fan.
+- Note that not all power banks can support pass-through charging and depending on the fan you select you may find the pack cannot charge faster than you run it down. The more expensive fan I linked above will draw around 1amp or a little above, and if you use this fan you need to make sure your charger can supply above 1amp (comfortably) to keep your battery charged.
+
+## Final remarks
+This is a DIY project requiring basic skills including soldering. Selecting an appropriate power supply will require some basic knowledge of electricity. I've tried to keep everything as simple as possible but this isn't a consumer-grade product. Other than testing to ensure the fan drew air through the filter I have not tested this device for effectivenes in filetering harmful airborne contaminants. You should build and use this device at your own risk, no liability is implied or accepted.
