@@ -60,9 +60,15 @@ Assemble the wiring harness for the 2.5mm socket.
 - The completed wiring harness should look similar to this
 ![](images/IMG_3146.jpg)
 
-###Step 2
+### Step 2
 Assemble the fan housing.
 - Take the 3D printed housing and insert the 2.5mm socket from the inside, and fix in place using the supplied washer and nut. Tighten down with your pliers so it is snug but don't go crazy, you don't want to crack the housing.
 - Place the fan inside the housing with the writing facing towards the square end, this will ensure the fan draws air through the filter rather than pushing air into the filter. It wont make a huge difference to the performance of the device, but it's good practice to have clean air running over the fan. Use the 4 rubber fan mounts (or bolts if you use that method) to fix the fan into the case, then plug the fan cable into the wiring harness from step 1.
+![](images/Assembled%20housing.jpg)
 
+### Step 3
+Assemble the device.
+- Take the fan housing assembly and place it over the open end of the HEPA filter, taking care to work around the edge of the rubber ring on the filter itself so a good seal is make on the inside of the housing.
+- Ensure the base cover is installed firmly in the filter housing.
+(note the images below are of an early version with no integrated fan grill, the assembly is identical otherwise. I'll update these with better images later)
 
