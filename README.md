@@ -1,5 +1,5 @@
 # DIY-Air-Purifier
-A small DIY air purifier using off-the-shelf components for &lt;$100aud.
+A small DIY air purifier using off-the-shelf components for &lt;$100aud. Uses a 3D printed housing so you'll need a printer or access to one.
 
 ## Background
 ![](images/1576814734-MelbourneSmokeHaze.jpg)
