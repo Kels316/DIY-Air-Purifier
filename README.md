@@ -50,7 +50,7 @@ The BOM for the air purifier is:
 Just a couple of notes about the 3D print files.
   - I designed the fan housing using Fusion 360 and exported STLs from there.
   - I tweaked the design a number of times to get it to print easily on my Ultimaker 2+. You'll see in the images here (the magenta housing) an early version where the edges curled up badly. I recommend you print with a brim and a heated buildplate as that's what I have used.
-  - If you have a printer with a smaller buildplate I have included a folder in [3D_print_files](DIY-Air-Purifier/3D_print_files/small_printer_files/) with a version of the housing I split into 4 so it can be printed in parts then glued together. I have not tested this print at all so if you do print it please let me know how it goes. If there are changes required that's easily done.
+  - If you have a printer with a smaller buildplate I have included a folder in [3D_print_files](https://github.com/Kels316/DIY-Air-Purifier/tree/master/3D_print_files) with a version of the housing I split into 4 so it can be printed in parts then glued together. I have not tested this print at all so if you do print it please let me know how it goes. If there are changes required that's easily done.
   - I've been printing in PLA with no requirement for supports on the default Cura settings for Ultimaker PLA, except I turn down the buildplate temp to 50ºc after the first layer, which helps prevent the edges curling. If you print in other materials then let me know how it goes.
 
 ## Tools
