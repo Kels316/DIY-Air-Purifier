@@ -72,3 +72,6 @@ Assemble the device.
 - Ensure the base cover is installed firmly in the filter housing.
 (note the images below are of an early version with no integrated fan grill, the assembly is identical otherwise. I'll update these with better images later)
 
+![](images/housing_filter_join.jpg)
+![](images/base_cover.jpg)
+![](images/final_assembly.jpg)
