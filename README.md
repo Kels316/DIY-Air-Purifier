@@ -93,3 +93,6 @@ Power up and test.
 
 ## Final remarks
 This is a DIY project requiring basic skills including soldering. Selecting an appropriate power supply will require some basic knowledge of electricity. I've tried to keep everything as simple as possible and this isn't a consumer-grade product. Other than testing to ensure the fan drew air through the filter I have not tested this device for effectivenes in filtering harmful airborne contaminants. You should build and use this device at your own risk, no liability is implied or accepted.
+
+## Request for assistance
+If you can assist with improving this project by more rigorous testing using a PM2.5 meter or other instrumentation then please get in touch with me at info@phasezero.com.au or via this repo.
