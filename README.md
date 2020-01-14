@@ -25,3 +25,36 @@ After selecting the components I then designed a fan housing using Fusion 360 th
 After basic testing with a small smoke generator to ensure the selected fans could draw air through the filter to a reasonable standard I have determined the project suitable for release so others can create their own version of this device both for use in their homes and for further testing.
 
 ![](images/Air_Purifier_V2_2020-Jan-13_09-48-57PM-000_CustomizedView1437179471.png)
+
+The image above shows the rendered view of the device from Fusion 360 with an iPhone X for scale. The first version of the housing used a separate fan grill but I was able to eliminate this by incorporating the hex pattern into the housing, which also saved about $7 off the cost.
+
+## Materials
+The BOM for the air purifier is:
+  - 1x 120mm computer fan. I recommend you use this one: https://www.pccasegear.com/products/36033 which draws around 600ma, or if you have a larger power bank this one: https://www.pccasegear.com/products/27866 which draws around 1000ma but pushes a lot more air. The second fan is also a bit more expensive so if the budget is tight the first one will work perfectly.
+  - 1x 2.5mm DC bulkhead socket: https://www.jaycar.com.au/2-5mm-bulkhead-male-dc-power-connector/p/PS0524. This allows you to plug the device in with the USB booster cable to supply 12vDC to the fan.
+  - 1x 12v USB booster cable: https://www.jaycar.com.au/universal-usb-12v-step-up-power-cable/p/PP1978./ Ensure you get the 12v version as these do come in 9v also and that wont work.
+  - 1x HEPA H13 filter: https://www.bunnings.com.au/powerfit-h13-hepa-cartridge-filter_p6210793. Ensure you get this exact filter as the housing is dimensioned to fit over the end. Other filters with the same diameter may work, but are untested. This filter comes with an end-piece that will be the base of your device, so ensure this is in the box.
+  - 1x USB power bank. Any power bank that can supply 5v >1amp will work but for best results choose one at least 10,000maH that supports pass-through charging. This allows you to use the battery as a UPS for the air purifier and run it continuously from a mains power, with  the battery being used for power outages.
+  - 1x 3D printed fan housing. The STL file can be found in: 
+  - 4pin fan cable: https://www.pccasegear.com/products/35666/cablemod-4-pin-fan-to-3x-4-pin-fan-y-cable-black-30cm. This cable is cheap and gives you three female plugs so you can make multiple devices with the one cable.
+  - Heatshrink tubing 8mm (30mm long).
+
+## Tools
+You will need the following tools to assemble the device:
+  - Soldering iron and solder
+  - Pliers (with wire cutters)
+  - Scissors
+  - Multimeter (to determine correct polarity for the wiring of the socket)
+  
+## Assembly
+### Step 1
+Assemble the wiring harness for the 2.5mm socket.
+- Take the 4pin fan cable and cut one of the female plugs off leaving about 10cm of cable on the plug.
+- Trim back the cable protective sleeve with the scissors leaving about 2cm of exposed wires.
+- If you use the cable I linked above to make this harness you need the orange (+) and black (-) wires, other cables may differ so check before you go further you have the correct wires.
+- Keeping the orange and black wires the length you cut previously, cut the other two wires off shorter so they will be inside the cable sheath and out of the way.
+- Strip and tin the orange and black wires with new 60/40 solder and place on the heatshrink tubing over the top of the cable protective sheath.
+- Determine the correct terminal lugs on the 2.5mm socket using the multimeter. Then solder the + and - wires to the correct terminals.
+- Pull the heatshrink over the socket lugs and shrink it with a heat gun or flame.
+- The completed wiring harness should look similar to this
+![](xxx)
