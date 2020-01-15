@@ -101,11 +101,14 @@ Power up and test.
 ## Initial test results
 As I'm using a HEPA H13 rated filter I'm not concerned with the ability of the device to remove PM2.5 particles, that's implied in the rating of the filter. My main concern is how effective the device is at air exchange in a small room. In order to work out if the device was working to draw air through the filter I set up a small test with the device inside a plastic box that I filled with smoke from a 'disco' smoke machine. Running the device inside the box showed that it was in fact pulling air through the filter and removing this smoke. The 1000% speed gif below shows a test where I filled the box with smoke and left it for 2min (to make sure the smoke wasn't just leaking away) then activated the device for 90sec, as you can see the device filters out the smoke pretty quickly.
 
-![](gif)
+![](images/APtest2.gif)
 
-After determining the device did pull air through the filter I set up another test where I used the airspeed sensor from a drone (I have drones) to do a rough calculation of the CFM of the device. This is a very rough test because the airspeed sensor is not properly calibrated (just zeroed before the test), although I also checked the results by using a handheld anemometer and got pretty much the same readings. So from this test I calculated a CFM of ~160 using the larger of the two fans, which is rated (on the packaging) at 186 CFM, so it seems like this result is probably about right. I have an open issue for assistance with doing a more rigorous test, so if you have the equipment and/or knowledge for this please get in touch.
+After determining the device did pull air through the filter I set up another test where I used the airspeed sensor from a drone (I have drones) to do a rough calculation of the CFM of the device. I used a pixracer flight controller to process the airspeed data and read it using Mission Planner - this is all drone-speak for anyone interested in that part of the test. One of the prototype housings was drilled and I printed a sleeve for the pitot tube that I hot-glued into the housing so the pitot would be in the airstream at the correct angle.
 
-![](image)
+![](images/airspeed3.jpg)
+![](images/airspeed%20data.jpg)
+
+This is a very rough test because the airspeed sensor is not properly calibrated (just zeroed before the test), although I also checked the results by using a handheld anemometer and got pretty much the same readings. So from this test I calculated a CFM of ~160 using the larger of the two fans, which is rated (on the packaging) at 186 CFM, so it seems like this result is probably about right. I have an open issue for assistance with doing a more rigorous test, so if you have the equipment and/or knowledge for this please get in touch.
 
 The rudimentary testing indicates that in my home office (25m3) the device with the larger fan is able to achieve about 10 air exchanges per hour, which would be a good result for this sized space. I'm not confident this is accurate though, but it at least indicates that air exchange is taking place, and it's in the ballpark of a small commercial air purifier.
 
