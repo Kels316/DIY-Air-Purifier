@@ -99,24 +99,15 @@ Power up and test.
 ![](images/final_test.jpg)
 
 ## Initial test results
-As I'm using a HEPA H13 rated filter I'm not concerned with the ability of the device to remove PM2.5 particles, that's implied in the rating of the filter. My main concern is how effective the device is at air exchange in a small room. In order to work out if the device was working to draw air through the filter I set up a small test with the device inside a plastic box that I filled with smoke from a 'disco' smoke machine. Running the device inside the box showed that it was in fact pulling air through the filter and removing this smoke. The 1000% speed gif below shows a test where I filled the box with smoke and left it for 2min (to make sure the smoke wasn't just leaking away) then activated the device for 90sec, as you can see the device filters out the smoke pretty quickly.
+Since initially publishing this project additional people have come forward to help with refining and testing the air purifier. Recently we had some robust tests conducted on the Clean Air Delivery Rate (CADR) prduced by this unit. Unfortunately the current configuration of the air purifier produces a very low CADR of ~16m3/hr, this equates to 6 ACH (air exchanges per hour) in a 1.6m2 space - not enough to be effective as a small bedroom air purifier.
 
-![](images/APtest2.gif)
-
-After determining the device did pull air through the filter I set up another test where I used the airspeed sensor from a drone (I have drones) to do a rough calculation of the CFM of the device. I used a pixracer flight controller to process the airspeed data and read it using Mission Planner - this is all drone-speak for anyone interested in that part of the test. One of the prototype housings was drilled and I printed a sleeve for the pitot tube that I hot-glued into the housing so the pitot would be in the airstream at the correct angle.
-
-![](images/airspeed3.jpg)
-![](images/airspeed%20data.jpg)
-
-This is a very rough test because the airspeed sensor is not properly calibrated (just zeroed before the test), although I also checked the results by using a handheld anemometer and got pretty much the same readings. So from this test I calculated a CFM of ~160 using the larger of the two fans, which is rated (on the packaging) at 186 CFM, so it seems like this result is probably about right. I have an open issue for assistance with doing a more rigorous test, so if you have the equipment and/or knowledge for this please get in touch.
-
-The rudimentary testing indicates that in my home office (25m3) the device with the larger fan is able to achieve about 10 air exchanges per hour, which would be a good result for this sized space. I'm not confident this is accurate though, but it at least indicates that air exchange is taking place, and it's in the ballpark of a small commercial air purifier.
+We are continuing to work on ways to improve the performance of the air purifier without compromising the DIY nature, or significantly increasing the cost. There are some challenges to be overcome but I'm confident we'll be able to update the project soon with a design that is much more effective. Watch this space!
 
 ## Final remarks
-This is a DIY project requiring basic skills including soldering. Selecting an appropriate power supply will require some basic knowledge of electricity. I've tried to keep everything as simple as possible and this isn't a consumer-grade product. Other than testing to ensure the fan drew air through the filter I have not tested this device for effectivenes in filtering harmful airborne contaminants. You should build and use this device at your own risk, no liability is implied or accepted.
+This is a DIY project requiring basic skills including soldering. Selecting an appropriate power supply will require some basic knowledge of electricity. I've tried to keep everything as simple as possible and this isn't a consumer-grade product. The initial testing of this design has shown it is not an effective replacement for a commercial air purifier at this stage, but work continues to improve it. You should build and use this device at your own risk, no liability is implied or accepted.
 
 ## Request for assistance
-If you can assist with improving this project by more rigorous testing using a PM2.5 meter or other instrumentation then please get in touch with me at info@phasezero.com.au or via this repo.
+If you can assist with improving this project by more rigorous testing then please get in touch with me at info@phasezero.com.au or via this repo.
 
 ### Licence
 This work is licenced under a Attribution-NonCommercial-ShareAlike 3.0 Australia licence. 
