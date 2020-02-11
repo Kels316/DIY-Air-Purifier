@@ -7,6 +7,8 @@ Uses a 3D printed housing so you'll need a printer or access to one. You could u
 
 All prices listed are in AUD.
 
+PLEASE READ THE SECTION ON TESTING BEFORE BUILDING THIS UNIT.
+
 ## Background
 ![](images/1576814734-MelbourneSmokeHaze.jpg)
 In the summer of 2019/2020 Australia is experiencing unprecedented dangerous fire conditions driven by climate change. Much of the east coast of the country south of Brisbane is engulfed in deadly bushfires and air pollution ratings in cities such as Sydney, Canberra, Melbourne and many other regional cities and towns is many times the recommended safe levels of PM2.5 particles. The long term affects of the inhalation of bushfire smoke is mostly unknown at this time, but already people have died from respiratory distress bought about by the smoke-filled air.
